@@ -1,0 +1,28 @@
+graph LR
+    G{Geological<br>Homoplastic}
+
+   G ---Sand((Sand<br>Glass lens))
+
+   B{Biological<br>Homoplastic}
+   B ---Algae((Algae))
+   B ---> T
+
+   T{Techno-semiotic<br>Alloplastic}
+   T ---F((Foldscope))
+   T --- G
+   T --- B
+   G ---> T
+
+
+
+   classDef StrataStyle fill:#fbdb65,stroke:#333,stroke-width:4px;
+   class C,G,B,T StrataStyle;
+
+   classDef ProceedStyle fill:#eaaa00,stroke:#111,stroke-width:2px;
+   class I,Translation,Transduction,Sand ProceedStyle;
+
+   classDef ObjectStyle fill:#fbda99;
+   class F,S ObjectStyle;
+
+   classDef AlgaeStyle fill:#6A7A, stroke:#111,stroke-width:2px;
+   class Algae AlgaeStyle;
