@@ -1,3 +1,4 @@
+```mermaid
 graph LR
     G{Geological<br>Homoplastic}
 
@@ -26,3 +27,4 @@ graph LR
 
    classDef AlgaeStyle fill:#6A7A, stroke:#111,stroke-width:2px;
    class Algae AlgaeStyle;
+```
